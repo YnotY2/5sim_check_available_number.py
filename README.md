@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 5SIM Number Availability Checker is a Python script designed to check the availability of phone numbers provided by the 5SIM service. It specifically focuses on the "bolt" service and determines if there are any available numbers for a given operator and country.
+The 5SIM Number Availability Checker is a Python script designed to check the availability of phone numbers provided by the 5SIM service. You can set the counrty, operator and service. 
 
 ## Prerequisites
 
