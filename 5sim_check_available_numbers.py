@@ -9,7 +9,7 @@ class colors:
     CYAN = '\033[96m'
     BLACK = '\033[30m'
 
-# Specify the operator and service you would like to use:
+# Specify the operato, countryr and service you would like to use:
 operator_1 = 'virtual38'
 operator_2 = 'virtual4'
 country = 'germany'
