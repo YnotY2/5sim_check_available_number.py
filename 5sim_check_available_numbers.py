@@ -13,8 +13,10 @@ class colors:
 operator_1 = 'virtual38'
 operator_2 = 'virtual4'
 country = 'germany'
+service = 'openai'
 
-def check_number_availability(operator_1, country, operator_2):
+
+def check_number_availability(operator_1, country, operator_2, service):
 
     headers = {
         'Accept': 'application/json',
@@ -28,10 +30,7 @@ def check_number_availability(operator_1, country, operator_2):
     # Check if the API call was successful.
     if response.status_code == 200:
         print(f"{colors.RED}Successful API call!{colors.END}")
-
-        # Define the service you want to extract from the response.
-        service = 'openai'
-
+        
         # Access the service entry in the dictionary.
         data_dict = response.json()
         service_entry = data_dict.get(service)
