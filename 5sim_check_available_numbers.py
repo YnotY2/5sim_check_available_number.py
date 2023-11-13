@@ -80,7 +80,7 @@ def check_number_availability(operator_1, country, operator_2, service):
             return False
 
 # Call the function and store the result, this way the function only runs when called.
-sim_numbers_available = check_number_availability(operator_1, country, operator_2)
+sim_numbers_available = check_number_availability(operator_1, country, operator_2, service)
 
 if sim_numbers_available:
     for operator in sim_numbers_available:
